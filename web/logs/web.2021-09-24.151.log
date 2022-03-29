@@ -1,0 +1,7 @@
+0001/01/01 00:00:00.000  [M] [log.go:184]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 19:20:31.499  [D] [log.go:756]  template Execute err: template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
+2021/09/24 19:20:31.499  [E] [log.go:720]  template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
+2021/09/24 19:20:31.499  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.6394ms|   match|[44m GET     [0m /my   r:/my
+2021/09/24 19:20:34.664  [D] [log.go:750]  |      127.0.0.1|[47m 302 [0m|      679.9µs|   match|[44m GET     [0m /logout   r:/logout
+2021/09/24 19:20:34.670  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.1291ms|   match|[44m GET     [0m /login   r:/login
+2021/09/24 19:20:47.986  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|       4.53ms|   match|[44m GET     [0m /     r:/

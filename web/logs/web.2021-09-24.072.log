@@ -1,0 +1,7 @@
+2021/09/24 17:37:26.399  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      534.9µs|   match|[44m GET     [0m /static/codemirror/addon/edit/matchbrackets.js
+2021/09/24 17:37:26.399  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      561.6µs|   match|[44m GET     [0m /static/js/global.js
+2021/09/24 17:37:26.399  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      561.6µs|   match|[44m GET     [0m /static/js/shell.js
+2021/09/24 17:37:26.443  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.3329ms|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css.map
+2021/09/24 17:37:26.474  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.5875ms|   match|[44m GET     [0m /static/images/headimgurl.jpg
+2021/09/24 17:37:36.445  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      942.8µs|   match|[44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
+2021/09/24 17:37:37.510  [D] [log.go:756]  template Execute err: template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId

@@ -1,0 +1,7 @@
+2021/09/24 18:10:21.570  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      570.8µs|   match|[44m GET     [0m /static/js/shell.js
+2021/09/24 18:10:21.575  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.6217ms|   match|[44m GET     [0m /static/cropper/cropper.js
+2021/09/24 18:10:21.573  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.2153ms|   match|[44m GET     [0m /static/webuploader/webuploader.js
+2021/09/24 18:10:21.622  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      979.1µs|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css.map
+2021/09/24 18:10:21.666  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/headimgurl.jpg
+2021/09/24 18:10:22.741  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|        978µs|   match|[44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
+2021/09/24 18:10:23.405  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.6451ms|   match|[44m GET     [0m /my   r:/my

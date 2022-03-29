@@ -1,0 +1,10 @@
+2021/09/26 13:44:22.230  [I] [log.go:745]  generate router from comments
+2021/09/26 13:44:22.235  [I] [log.go:745]  http server Running on http://:8080
+2021/09/26 13:44:26.918  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      7.089ms|   match|[44m GET     [0m /login   r:/login
+2021/09/26 13:44:35.170  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.6556ms|   match|[44m GET     [0m /login   r:/login
+2021/09/26 13:44:53.024  [I] [log.go:745]  generate router from comments
+2021/09/26 13:44:53.024  [I] [log.go:745]  http server Running on http://:8080
+2021/09/26 13:45:01.835  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.0677ms|   match|[44m GET     [0m /login   r:/login
+2021/09/26 13:45:10.211  [D] [log.go:750]  |      127.0.0.1|[47m 302 [0m|        327µs| nomatch|[44m GET     [0m /  
+2021/09/26 13:45:10.221  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.3567ms|   match|[44m GET     [0m /login   r:/login
+2021/09/26 13:46:31.878  [I] [log.go:745]  generate router from comments

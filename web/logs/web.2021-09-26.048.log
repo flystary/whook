@@ -1,0 +1,7 @@
+2021/09/26 13:54:12.158  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.3964ms|   match|[44m GET     [0m /static/bootstrap/plugins/select2/js/select2.js
+2021/09/26 13:54:20.803  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     8.9895ms|   match|[44m GET     [0m /hook/server_list/1   r:/hook/server_list/:id
+2021/09/26 13:54:23.639  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|    11.6645ms|   match|[44m GET     [0m /hook/scheduler/1   r:/hook/scheduler/:id
+2021/09/26 13:54:23.671  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      3.064ms|   match|[44m GET     [0m /static/vuejs/vue.min.js
+2021/09/26 13:54:23.673  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.7698ms|   match|[44m GET     [0m /static/codemirror/theme/ambiance.css
+2021/09/26 13:54:23.702  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.6199ms|   match|[44m GET     [0m /static/images/default.png
+2021/09/26 13:54:26.823  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|    11.2103ms|   match|[44m GET     [0m /hook/server_list/1   r:/hook/server_list/:id

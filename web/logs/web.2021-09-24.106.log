@@ -1,0 +1,8 @@
+2021/09/24 18:08:23.717  [I] [log.go:745]  http server Running on http://:8080
+2021/09/24 18:08:28.377  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
+2021/09/24 18:08:28.379  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.7389ms|   match|[44m GET     [0m /     r:/
+2021/09/24 18:08:28.398  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|        943µs|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css
+2021/09/24 18:08:28.399  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      520.2µs|   match|[44m GET     [0m /static/font-awesome/css/font-awesome.css
+2021/09/24 18:08:28.400  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      409.8µs|   match|[44m GET     [0m /static/codemirror/lib/codemirror.css
+2021/09/24 18:08:28.402  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      789.5µs|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/24 18:08:28.401  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      698.3µs|   match|[44m GET     [0m /static/css/global.css

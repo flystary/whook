@@ -1,0 +1,8 @@
+2021/09/26 10:48:22.280  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/shell.js
+2021/09/26 10:48:22.284  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.1804ms|   match|[44m GET     [0m /static/js/global.js
+2021/09/26 10:48:22.280  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.3502ms|   match|[44m GET     [0m /static/codemirror/addon/edit/matchbrackets.js
+2021/09/26 10:48:22.344  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.3168ms|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css.map
+2021/09/26 10:48:22.356  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.3028ms|   match|[44m GET     [0m /static/images/headimgurl.jpg
+2021/09/26 10:48:27.420  [E] [log.go:720]   Error 1054: Unknown column 'member_id' in 'order clause'
+2021/09/26 10:48:27.423  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.2651ms|   match|[44m GET     [0m /member   r:/member
+2021/09/26 10:53:55.871  [I] [log.go:745]  generate router from comments

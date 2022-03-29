@@ -1,0 +1,8 @@
+2021/09/26 13:49:27.685  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.8625ms|   match|[44m GET     [0m /server   r:/server
+2021/09/26 13:49:28.622  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     8.3143ms|   match|[44m GET     [0m /member   r:/member
+2021/09/26 13:49:29.774  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     8.9996ms|   match|[44m GET     [0m /member/edit/2   r:/member/edit/?:id
+2021/09/26 13:49:36.925  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     8.1428ms|   match|[44m GET     [0m /     r:/
+2021/09/26 13:49:39.304  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
+2021/09/26 13:49:39.311  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      9.849ms|   match|[44m GET     [0m /server   r:/server
+2021/09/26 13:49:39.963  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     7.2475ms|   match|[44m GET     [0m /member   r:/member
+2021/09/26 13:49:42.789  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.2716ms|   match|[44m GET     [0m /my   r:/my

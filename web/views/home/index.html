@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebHook List - SmartWebHook</title>
+    {{template "widgets/headfile.html"}}
+</head>
+<body>
+{{template "widgets/head.html" .}}
+<div class="container">
+    <div class="bs-docs-container">
+        <div class="title">
+            <h3>WebHook List</h3>
+            <hr>
+        </div>
+        <div class="body">
+            <table class="table table-condensed" id="webHookTable">
+                <thead>
+                <tr><th width="5%">#</th><th width="15%">Repo</th><th>Branch</th><th width="15%">Hook Type</th><th width="15%">Create Time</th><th width="10%">Status</th><th width="17%">Operate</th></tr>
+                </thead>
+                <tbody>
+                {{if .lists}}
+                    {{range $index,$item := .lists}}
+
+                        {{template "home/index_list.html" .}}
+                    {{end}}
+                {{end}}
+                </tbody>
+            </table>
+            {{if gt .totalCount 1}}
+            <nav>
+                {{.html}}
+            </nav>
+            {{end}}
+        </div>
+        <div class="body-botton text-center">
+            <button class="btn btn-success btn-sm" id="addWebHookBtn">添加新的 Git WebHook</button>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="webHookModal" tabindex="-1" role="dialog" aria-labelledby="webHookModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <form method="post" id="webHookForm" action='{{urlfor "HomeController.Edit"}}'>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="webHookTitle">New WebHook</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label>Git Repository</label>
+                                    <input type="text" name="name" id="repositoryName" placeholder="Repository Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label>Branch</label>
+                                    <input type="text" name="branch" id="repositoryBranch" placeholder="Repository Branch" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="hookType">WebHook Type</label>
+                                    <select name="hook_type" class="form-control" id="hookType">
+                                        <option>None</option>
+                                        <option value="github">GitHub</option>
+                                        <option value="gitlab">GitLab</option>
+                                        <option value="gogs">Gogs</option>
+                                        <option value="gitosc">GitOsc</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                <label for="shellScript">Callback Shell Script <a href="###"><i class="fa fa-question" aria-hidden="true"></i></a></label>
+                                <textarea name="shell" id="shellScript" class="form-control" style="height: 200px;resize: none"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <span id="errorMessage" style="display: inline-block;padding-right: 10px;"></span>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" id="saveWebHookBtn" data-load-text="saving">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="copySecureModal" tabindex="-1" role="dialog" aria-labelledby="copySecureModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="copySecureModalTitle">Copy Url</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-lg-2">
+                            <label>Url </label>
+                        </div>
+                        <div class="col-lg-10">
+                            <input type="text" id="urlInput" placeholder="URL" class="form-control" data-value="{{.BaseUrl}}{{urlfor "PayloadController.Index" ":key" ""}}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-2">
+                        <label>Secure </label>
+                        </div>
+                        <div class="col-lg-10">
+                        <input type="text" id="secureInput" placeholder="Token" class="form-control" >
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{template "widgets/foot.html" .}}
+<script type="text/javascript">
+
+    $(function () {
+       $("#webHookTable").on("click",".delete-hook-btn",function () {
+           var id = $(this).attr("data-id");
+           var $this = $(this);
+           $.post('{{urlfor "HomeController.Delete"}}',{"id":id},function (res) {
+               if(res.errcode === 0){
+                   $this.closest("tr").empty().remove()
+               }else{
+                   alert(res.message)
+               }
+           });
+       }) .on("click",".copy-hook-btn",function () {
+           var key = $(this).attr("data-key");
+           var secure = $(this).attr("data-secure");
+           var baseUrl = $("#urlInput").attr("data-value");
+
+           $("#urlInput").val(baseUrl + key);
+           $("#secureInput").val(secure);
+           $("#copySecureModal").modal("show");
+
+       });
+       $("#copySecureModal").find("input").on("mouseover",function () {
+           $(this).select();
+       });
+    });
+</script>
+</body>
+</html>

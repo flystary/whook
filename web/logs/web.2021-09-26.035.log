@@ -1,0 +1,7 @@
+2021/09/26 12:27:51.353  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|     1.6024ms|   match|[44m GET     [0m /static/cropper/cropper.js
+2021/09/26 12:28:16.398  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      860.6µs|   match|[44m GET     [0m /static/uploads/202109/avatar_16f81400.jpeg
+2021/09/26 12:28:24.383  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      4.723ms|   match|[44m GET     [0m /     r:/
+2021/09/26 12:28:24.398  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|      354.7µs|   match|[44m GET     [0m /static/uploads/202109/avatar_16f81400.jpeg
+2021/09/26 12:28:25.997  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
+2021/09/26 12:28:26.000  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.0681ms|   match|[44m GET     [0m /server   r:/server
+2021/09/26 12:28:26.016  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|      220.4µs|   match|[44m GET     [0m /static/uploads/202109/avatar_16f81400.jpeg

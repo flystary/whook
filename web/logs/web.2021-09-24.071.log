@@ -1,0 +1,7 @@
+2021/09/24 17:37:26.389  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.4257ms|   match|[44m GET     [0m /static/font-awesome/css/font-awesome.css
+2021/09/24 17:37:26.396  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     6.6059ms|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/24 17:37:26.393  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.0549ms|   match|[44m GET     [0m /static/bootstrap/js/bootstrap.js
+2021/09/24 17:37:26.394  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.3463ms|   match|[44m GET     [0m /static/codemirror/lib/codemirror.css
+2021/09/24 17:37:26.392  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.1483ms|   match|[44m GET     [0m /static/css/global.css
+2021/09/24 17:37:26.395  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.8512ms|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js
+2021/09/24 17:37:26.398  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.2617ms|   match|[44m GET     [0m /static/codemirror/lib/codemirror.js

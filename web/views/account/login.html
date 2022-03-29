@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>用户登录 - SmartWebHook</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/static/css/global.css">
+    <script src="/static/js/jquery-1.12.4.min.js"></script>
+    <script src="/static/js/jquery.form.js"></script>
+
+
+</head>
+<body>
+<header class="navbar navbar-static-top bs-docs-nav  navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">WebHook</a>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="bs-docs-container">
+        <div class="login-body text-center">
+            <h1>Welcome use WebHook</h1>
+            <p>Login with your <strong>WebHook</strong> ID</p>
+            <form class="form-inline" method="post" id="loginForm">
+                <div class="form-group">
+                    <label class="sr-only" for="inputAccount">Account</label>
+                    <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-address-book"></i></div>
+                        <input type="text" class="form-control" id="inputAccount" name="inputAccount" placeholder="Account" style="width: 310px" autocomplete="off">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="sr-only">Password</label>
+                    <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-key"></i></div>
+                        <input type="password" class="form-control" id="inputPassword" name="inputPassword" style="width: 310px" placeholder="Password" autocomplete="off">
+                    </div>
+                </div>
+                <div class="form-group" style="width: 100%">
+                    <button type="submit" class="btn btn-success" style="width: 100%" data-load-text="Logging" id="btnLogin">Login</button>
+                </div>
+                <div class="form-group text-danger" id="text-error-message">
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container-fluid navbar-fixed-bottom footer">
+        <div class="text-center">
+            <span><a href="" target="_blank">WebHook</a> </span>
+            <span style="display: inline-block;padding: 0 5px;"> · </span>
+        </div>
+</div>
+<script src="/static/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var btnLogin = $("#btnLogin");
+        var inputAccount = $("#inputAccount");
+        var inputPassword = $("#inputPassword");
+
+        inputAccount.on("blur",function () {
+           inputAccount.closest(".form-group").removeClass("has-error");
+        });
+        inputPassword.on("blur",function () {
+            inputPassword.closest(".form-group").removeClass("has-error");
+        });
+
+       $("#loginForm").ajaxForm({
+           dataType : "json",
+           beforeSubmit : function () {
+             var account = $.trim(inputAccount.val());
+             if(account === ""){
+                 inputAccount.closest(".form-group").addClass("has-error");
+                 return false;
+             }
+             var password = $.trim(inputPassword.val());
+             if(password === ""){
+                 inputPassword.closest(".form-group").addClass("has-error");
+                 return false;
+             }
+             btnLogin.button("load");
+           },success : function (res) {
+                if(res.errcode === 0){
+                    window.location = "/";
+                }else{
+                    $("#text-error-message").text(res.message);
+                }
+           },error : function () {
+
+           },complete : function () {
+               btnLogin.button("reset");
+           }
+       });
+    });
+</script>
+</body>
+</html>

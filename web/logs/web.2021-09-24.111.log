@@ -1,0 +1,10 @@
+2021/09/24 18:10:14.528  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.8329ms|   match|[44m GET     [0m /static/webuploader/webuploader.js
+2021/09/24 18:10:14.573  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      977.1µs|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css.map
+2021/09/24 18:10:14.619  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/headimgurl.jpg
+2021/09/24 18:10:18.739  [C] [log.go:715]  the request url is  /member
+2021/09/24 18:10:18.739  [C] [log.go:715]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2021/09/24 18:10:18.739  [C] [log.go:715]  C:/Go/src/runtime/panic.go:965
+2021/09/24 18:10:18.739  [C] [log.go:715]  C:/Go/src/runtime/panic.go:212
+2021/09/24 18:10:18.739  [C] [log.go:715]  C:/Go/src/runtime/signal_windows.go:239
+2021/09/24 18:10:18.739  [C] [log.go:715]  C:/Gos/src/web/web/controllers/user.go:30
+2021/09/24 18:10:18.739  [C] [log.go:715]  C:/Go/src/reflect/value.go:476

@@ -1,0 +1,9 @@
+0001/01/01 00:00:00.000  [M] [log.go:184]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 18:24:04.055  [I] [log.go:745]  generate router from comments
+2021/09/24 18:24:04.056  [I] [log.go:745]  http server Running on http://:8080
+2021/09/24 18:24:09.201  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
+2021/09/24 18:24:09.205  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.0027ms|   match|[44m GET     [0m /     r:/
+2021/09/24 18:24:11.594  [D] [log.go:750]  |      127.0.0.1|[47m 302 [0m|      452.1µs|   match|[44m GET     [0m /logout   r:/logout
+2021/09/24 18:24:11.598  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.9355ms|   match|[44m GET     [0m /login   r:/login
+2021/09/24 18:24:19.260  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
+2021/09/24 18:24:19.263  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.4201ms|   match|[44m GET     [0m /     r:/

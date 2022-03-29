@@ -1,0 +1,9 @@
+0001/01/01 00:00:00.000  [M] [log.go:184]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 19:17:01.851  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
+2021/09/24 19:17:01.854  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      5.445ms|   match|[44m GET     [0m /server   r:/server
+2021/09/24 19:17:01.875  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      812.4µs|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css
+2021/09/24 19:17:01.878  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      906.7µs|   match|[44m GET     [0m /static/codemirror/lib/codemirror.css
+2021/09/24 19:17:01.879  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.4701ms|   match|[44m GET     [0m /static/font-awesome/css/font-awesome.css
+2021/09/24 19:17:01.879  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      505.3µs|   match|[44m GET     [0m /static/css/global.css
+2021/09/24 19:17:01.880  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|        531µs|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/24 19:17:01.880  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|        531µs|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js

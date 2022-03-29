@@ -1,0 +1,7 @@
+0001/01/01 00:00:00.000  [M] [log.go:184]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 10:44:55.804  [I] [log.go:745]  generate router from comments
+2021/09/24 10:44:55.804  [I] [log.go:745]  http server Running on http://:8080
+2021/09/24 10:44:59.322  [D] [log.go:756]  template Execute err: template: widgets/head.html:16:21: executing "widgets/head.html" at <eq .Member.Role 0>: error calling eq: invalid type for comparison
+2021/09/24 10:44:59.323  [E] [log.go:720]  template: widgets/head.html:16:21: executing "widgets/head.html" at <eq .Member.Role 0>: error calling eq: invalid type for comparison
+2021/09/24 10:44:59.323  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.5152ms|   match|[44m GET     [0m /     r:/
+2021/09/24 10:45:04.218  [D] [log.go:756]  template Execute err: template: widgets/head.html:16:21: executing "widgets/head.html" at <eq .Member.Role 0>: error calling eq: invalid type for comparison

@@ -1,0 +1,799 @@
+2021/09/22 18:37:02.988  [I] [cli.go:76]  program start...
+2021/09/22 18:37:02.988  [C] [cli.go:77]  log3--->Critical
+2021/09/22 18:37:02.989  [E] [cli.go:78]  log3--->Error
+2021/09/22 18:37:02.989  [W] [cli.go:79]  log3--->Warning
+2021/09/22 18:37:02.990  [N] [cli.go:80]  log3--->Notice
+2021/09/22 18:37:02.990  [I] [cli.go:81]  log3--->Info
+2021/09/22 18:37:02.990  [D] [cli.go:82]  log3--->Debug
+2021/09/22 18:37:03.596  [I] [parser.go:413]  generate router from comments
+2021/09/22 18:37:03.597  [I] [server.go:241]  http server Running on http://:8080
+2021/09/22 18:37:20.401  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /data
+2021/09/22 18:40:43.968  [I] [cli.go:76]  program start...
+2021/09/22 18:40:43.970  [C] [cli.go:77]  log3--->Critical
+2021/09/22 18:40:43.970  [E] [cli.go:78]  log3--->Error
+2021/09/22 18:40:43.970  [W] [cli.go:79]  log3--->Warning
+2021/09/22 18:40:43.971  [N] [cli.go:80]  log3--->Notice
+2021/09/22 18:40:43.971  [I] [cli.go:81]  log3--->Info
+2021/09/22 18:40:43.972  [D] [cli.go:82]  log3--->Debug
+2021/09/22 18:40:44.568  [I] [parser.go:413]  generate router from comments
+2021/09/22 18:40:44.570  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 10:45:02.090  [I] [cli.go:76]  program start...
+2021/09/23 10:45:02.090  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:45:02.091  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:45:02.091  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:45:02.091  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:45:02.091  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:45:02.091  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:45:03.023  [I] [cli.go:76]  program start...
+2021/09/23 10:45:03.024  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:45:03.024  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:45:03.025  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:45:03.025  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:45:03.025  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:45:03.026  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:45:03.922  [I] [cli.go:76]  program start...
+2021/09/23 10:45:03.922  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:45:03.923  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:45:03.924  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:45:03.924  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:45:03.924  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:45:03.924  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:45:04.878  [I] [cli.go:76]  program start...
+2021/09/23 10:45:04.878  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:45:04.879  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:45:04.879  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:45:04.880  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:45:04.881  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:45:04.882  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:45:05.887  [I] [cli.go:76]  program start...
+2021/09/23 10:45:05.889  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:45:05.889  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:45:05.889  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:45:05.889  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:45:05.890  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:45:05.890  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:45:06.844  [I] [cli.go:76]  program start...
+2021/09/23 10:45:06.844  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:45:06.844  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:45:06.845  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:45:06.845  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:45:06.845  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:45:06.845  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:45:07.734  [I] [cli.go:76]  program start...
+2021/09/23 10:45:07.735  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:45:07.735  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:45:07.736  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:45:07.736  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:45:07.736  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:45:07.737  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:45:08.668  [I] [cli.go:76]  program start...
+2021/09/23 10:45:08.669  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:45:08.669  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:45:08.670  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:45:08.671  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:45:08.671  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:45:08.671  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:47:46.140  [I] [cli.go:76]  program start...
+2021/09/23 10:47:46.141  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:47:46.142  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:47:46.142  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:47:46.143  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:47:46.143  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:47:46.143  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:48:07.205  [E] [template.go:227]  parse template err: home/index.html template: home/index.html:11: function "request" not defined
+2021/09/23 10:48:07.205  [W] [hooks.go:81]  template: home/index.html:11: function "request" not defined
+2021/09/23 10:48:54.992  [I] [cli.go:76]  program start...
+2021/09/23 10:48:54.993  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:48:54.993  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:48:54.993  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:48:54.994  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:48:54.994  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:48:54.994  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:49:16.073  [E] [template.go:227]  parse template err: home/index.html template: home/index.html:11: function "request" not defined
+2021/09/23 10:49:16.074  [W] [hooks.go:81]  template: home/index.html:11: function "request" not defined
+2021/09/23 10:50:29.770  [I] [cli.go:76]  program start...
+2021/09/23 10:50:29.771  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:50:29.771  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:50:29.772  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:50:29.772  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:50:29.772  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:50:29.773  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:50:30.721  [I] [cli.go:76]  program start...
+2021/09/23 10:50:30.721  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:50:30.721  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:50:30.723  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:50:30.723  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:50:30.723  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:50:30.723  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:50:51.784  [E] [template.go:227]  parse template err: home/index.html template: home/index.html:11: function "request" not defined
+2021/09/23 10:50:51.784  [W] [hooks.go:81]  template: home/index.html:11: function "request" not defined
+2021/09/23 10:53:17.094  [I] [cli.go:76]  program start...
+2021/09/23 10:53:17.094  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:53:17.094  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:53:17.094  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:53:17.095  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:53:17.095  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:53:17.095  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:53:38.175  [E] [template.go:227]  parse template err: home/index.html template: home/index.html:11: function "request" not defined
+2021/09/23 10:53:38.176  [W] [hooks.go:81]  template: home/index.html:11: function "request" not defined
+2021/09/23 10:58:04.136  [I] [cli.go:76]  program start...
+2021/09/23 10:58:04.137  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:58:04.137  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:58:04.138  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:58:04.138  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:58:04.139  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:58:04.139  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:58:25.181  [E] [template.go:227]  parse template err: home/index.html template: home/index.html:11: function "request" not defined
+2021/09/23 10:58:25.182  [W] [hooks.go:81]  template: home/index.html:11: function "request" not defined
+2021/09/23 10:59:09.706  [I] [cli.go:76]  program start...
+2021/09/23 10:59:09.707  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:59:09.707  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:59:09.707  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:59:09.708  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:59:09.708  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:59:09.708  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:59:09.754  [E] [template.go:227]  parse template err: home/index.html template: home/index.html:11: function "request" not defined
+2021/09/23 10:59:09.754  [W] [hooks.go:81]  template: home/index.html:11: function "request" not defined
+2021/09/23 10:59:48.112  [I] [cli.go:76]  program start...
+2021/09/23 10:59:48.112  [C] [cli.go:77]  log3--->Critical
+2021/09/23 10:59:48.112  [E] [cli.go:78]  log3--->Error
+2021/09/23 10:59:48.113  [W] [cli.go:79]  log3--->Warning
+2021/09/23 10:59:48.113  [N] [cli.go:80]  log3--->Notice
+2021/09/23 10:59:48.113  [I] [cli.go:81]  log3--->Info
+2021/09/23 10:59:48.114  [D] [cli.go:82]  log3--->Debug
+2021/09/23 10:59:48.743  [I] [parser.go:413]  generate router from comments
+2021/09/23 10:59:48.744  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 10:59:56.053  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.1032ms|   match|[44m GET     [0m /     r:/
+2021/09/23 10:59:56.104  [D] [router.go:955]  |      127.0.0.1|[47m 304 [0m|      844.6µs|   match|[44m GET     [0m /static/js/reload.min.js
+2021/09/23 11:00:02.403  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.3484ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 11:00:24.554  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.4511ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 11:00:26.600  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     3.0915ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 11:00:57.936  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.7477ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 11:01:02.196  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.9466ms|   match|[44m GET     [0m /login/   r:/login
+2021/09/23 11:01:05.623  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      447.2µs| nomatch|[44m GET     [0m /login/2
+2021/09/23 11:01:05.657  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      780.4µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:02:06.732  [I] [cli.go:76]  program start...
+2021/09/23 11:02:06.733  [C] [cli.go:77]  log3--->Critical
+2021/09/23 11:02:06.733  [E] [cli.go:78]  log3--->Error
+2021/09/23 11:02:06.734  [W] [cli.go:79]  log3--->Warning
+2021/09/23 11:02:06.734  [N] [cli.go:80]  log3--->Notice
+2021/09/23 11:02:06.734  [I] [cli.go:81]  log3--->Info
+2021/09/23 11:02:06.734  [D] [cli.go:82]  log3--->Debug
+2021/09/23 11:02:07.341  [I] [parser.go:413]  generate router from comments
+2021/09/23 11:02:07.342  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 11:02:14.544  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      534.9µs|   match|[44m GET     [0m /login/   r:/login
+2021/09/23 11:02:14.602  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.5228ms|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:02:25.372  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      975.2µs|   match|[44m GET     [0m /     r:/
+2021/09/23 11:02:27.887  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      652.4µs|   match|[44m GET     [0m /     r:/
+2021/09/23 11:02:27.918  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      728.1µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:48:07.675  [I] [cli.go:76]  program start...
+2021/09/23 11:48:07.675  [C] [cli.go:77]  log3--->Critical
+2021/09/23 11:48:07.676  [E] [cli.go:78]  log3--->Error
+2021/09/23 11:48:07.677  [W] [cli.go:79]  log3--->Warning
+2021/09/23 11:48:07.677  [N] [cli.go:80]  log3--->Notice
+2021/09/23 11:48:07.677  [I] [cli.go:81]  log3--->Info
+2021/09/23 11:48:07.678  [D] [cli.go:82]  log3--->Debug
+2021/09/23 11:48:08.301  [I] [parser.go:413]  generate router from comments
+2021/09/23 11:48:08.302  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 11:48:18.726  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      891.7µs| nomatch|[44m GET     [0m /  
+2021/09/23 11:48:21.031  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.4556ms|   match|[44m GET     [0m /login/   r:/login
+2021/09/23 11:48:55.245  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      706.4µs|   match|[44m GET     [0m /login   r:/login
+2021/09/23 11:48:56.779  [C] [config.go:190]  the request url is  /login
+2021/09/23 11:48:56.779  [C] [config.go:191]  Handler crashed with error unknown field/column name `account`
+2021/09/23 11:48:56.781  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:48:56.781  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db_tables.go:368
+2021/09/23 11:48:56.781  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db.go:1024
+2021/09/23 11:48:56.782  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm_queryset.go:251
+2021/09/23 11:48:56.782  [C] [config.go:197]  C:/Gos/src/web/web/models/user.go:50
+2021/09/23 11:48:56.782  [C] [config.go:197]  C:/Gos/src/web/web/controllers/account.go:37
+2021/09/23 11:48:56.783  [C] [config.go:197]  C:/Go/src/reflect/value.go:476
+2021/09/23 11:48:56.783  [C] [config.go:197]  C:/Go/src/reflect/value.go:337
+2021/09/23 11:48:56.784  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/23 11:48:56.784  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:48:56.784  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:48:56.784  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:48:56.784  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:48:56.785  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:49:03.633  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|        733µs|   match|[44m GET     [0m /login   r:/login
+2021/09/23 11:49:05.369  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0944ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 11:49:05.400  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0005ms|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:53:41.594  [I] [cli.go:76]  program start...
+2021/09/23 11:53:41.594  [C] [cli.go:77]  log3--->Critical
+2021/09/23 11:53:41.594  [E] [cli.go:78]  log3--->Error
+2021/09/23 11:53:41.594  [W] [cli.go:79]  log3--->Warning
+2021/09/23 11:53:41.595  [N] [cli.go:80]  log3--->Notice
+2021/09/23 11:53:41.595  [I] [cli.go:81]  log3--->Info
+2021/09/23 11:53:41.595  [D] [cli.go:82]  log3--->Debug
+2021/09/23 11:53:42.243  [I] [parser.go:413]  generate router from comments
+2021/09/23 11:53:42.244  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 11:54:00.203  [C] [config.go:190]  the request url is  /login
+2021/09/23 11:54:00.203  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 11:54:00.203  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:54:00.204  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 11:54:00.204  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 11:54:00.204  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 11:54:00.205  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 11:54:00.205  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 11:54:00.205  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:54:00.206  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:54:00.206  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:54:00.206  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:54:00.206  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:54:00.236  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|       97.1µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:55:42.443  [I] [cli.go:76]  program start...
+2021/09/23 11:55:42.443  [C] [cli.go:77]  log3--->Critical
+2021/09/23 11:55:42.444  [E] [cli.go:78]  log3--->Error
+2021/09/23 11:55:42.445  [W] [cli.go:79]  log3--->Warning
+2021/09/23 11:55:42.445  [N] [cli.go:80]  log3--->Notice
+2021/09/23 11:55:42.445  [I] [cli.go:81]  log3--->Info
+2021/09/23 11:55:42.446  [D] [cli.go:82]  log3--->Debug
+2021/09/23 11:55:44.027  [I] [parser.go:413]  generate router from comments
+2021/09/23 11:55:44.028  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 11:55:50.074  [C] [config.go:190]  the request url is  /login
+2021/09/23 11:55:50.075  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 11:55:50.075  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:55:50.075  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 11:55:50.076  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 11:55:50.076  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 11:55:50.076  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 11:55:50.076  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 11:55:50.077  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:55:50.077  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:55:50.077  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:55:50.077  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:55:50.078  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:55:50.122  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      1.075ms|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:55:52.362  [C] [config.go:190]  the request url is  /login
+2021/09/23 11:55:52.362  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 11:55:52.363  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:55:52.363  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 11:55:52.364  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 11:55:52.364  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 11:55:52.364  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 11:55:52.365  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 11:55:52.365  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:55:52.365  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:55:52.366  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:55:52.366  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:55:52.366  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:55:52.395  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      337.9µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:56:19.930  [C] [config.go:190]  the request url is  /login
+2021/09/23 11:56:19.931  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 11:56:19.931  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:56:19.932  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 11:56:19.932  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 11:56:19.932  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 11:56:19.933  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 11:56:19.933  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 11:56:19.933  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:56:19.934  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:56:19.934  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:56:19.934  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:56:19.935  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:56:19.965  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|       74.5µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:56:23.925  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      721.3µs| nomatch|[44m GET     [0m /  
+2021/09/23 11:56:30.313  [C] [config.go:190]  the request url is  /login
+2021/09/23 11:56:30.314  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 11:56:30.314  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:56:30.315  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 11:56:30.316  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 11:56:30.317  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 11:56:30.317  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 11:56:30.318  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 11:56:30.319  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:56:30.319  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:56:30.319  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:56:30.320  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:56:30.320  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:56:30.351  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      346.3µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:57:44.941  [I] [cli.go:76]  program start...
+2021/09/23 11:57:44.943  [C] [cli.go:77]  log3--->Critical
+2021/09/23 11:57:44.943  [E] [cli.go:78]  log3--->Error
+2021/09/23 11:57:44.943  [W] [cli.go:79]  log3--->Warning
+2021/09/23 11:57:44.944  [N] [cli.go:80]  log3--->Notice
+2021/09/23 11:57:44.944  [I] [cli.go:81]  log3--->Info
+2021/09/23 11:57:44.944  [D] [cli.go:82]  log3--->Debug
+2021/09/23 11:57:45.600  [I] [parser.go:413]  generate router from comments
+2021/09/23 11:57:45.601  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 11:57:50.347  [C] [config.go:190]  the request url is  /login
+2021/09/23 11:57:50.347  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 11:57:50.348  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:57:50.348  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 11:57:50.348  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 11:57:50.349  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 11:57:50.349  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 11:57:50.349  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 11:57:50.350  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:57:50.350  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:57:50.350  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:57:50.351  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:57:50.351  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:57:50.389  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.4073ms|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:57:52.514  [C] [config.go:190]  the request url is  /login
+2021/09/23 11:57:52.514  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 11:57:52.515  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:57:52.515  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 11:57:52.516  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 11:57:52.517  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 11:57:52.517  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 11:57:52.517  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 11:57:52.518  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:57:52.518  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:57:52.518  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:57:52.518  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:57:52.519  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:57:52.547  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      675.1µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:57:58.016  [C] [config.go:190]  the request url is  /login/
+2021/09/23 11:57:58.017  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 11:57:58.017  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:57:58.018  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 11:57:58.018  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 11:57:58.018  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 11:57:58.019  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 11:57:58.019  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 11:57:58.019  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:57:58.019  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:57:58.020  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:57:58.020  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:57:58.020  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:57:58.048  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      174.5µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 11:58:01.525  [C] [config.go:190]  the request url is  /login
+2021/09/23 11:58:01.525  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 11:58:01.526  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:58:01.526  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 11:58:01.526  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 11:58:01.527  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 11:58:01.527  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 11:58:01.527  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 11:58:01.527  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:58:01.528  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:58:01.528  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:58:01.528  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:58:01.528  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:58:04.097  [C] [config.go:190]  the request url is  /login
+2021/09/23 11:58:04.098  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 11:58:04.099  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 11:58:04.099  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 11:58:04.099  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 11:58:04.100  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 11:58:04.100  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 11:58:04.100  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 11:58:04.100  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 11:58:04.101  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 11:58:04.102  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 11:58:04.102  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 11:58:04.102  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 11:58:04.131  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      356.5µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:01:28.118  [I] [cli.go:76]  program start...
+2021/09/23 12:01:28.118  [C] [cli.go:77]  log3--->Critical
+2021/09/23 12:01:28.118  [E] [cli.go:78]  log3--->Error
+2021/09/23 12:01:28.118  [W] [cli.go:79]  log3--->Warning
+2021/09/23 12:01:28.118  [N] [cli.go:80]  log3--->Notice
+2021/09/23 12:01:28.118  [I] [cli.go:81]  log3--->Info
+2021/09/23 12:01:28.118  [D] [cli.go:82]  log3--->Debug
+2021/09/23 12:01:28.807  [I] [parser.go:413]  generate router from comments
+2021/09/23 12:01:28.808  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 12:01:49.795  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /  
+2021/09/23 12:01:49.832  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      542.9µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:02:00.267  [C] [config.go:190]  the request url is  /login
+2021/09/23 12:02:00.267  [C] [config.go:191]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:895
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 12:02:00.267  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 12:03:18.180  [I] [cli.go:76]  program start...
+2021/09/23 12:03:18.181  [C] [cli.go:77]  log3--->Critical
+2021/09/23 12:03:18.181  [E] [cli.go:78]  log3--->Error
+2021/09/23 12:03:18.181  [W] [cli.go:79]  log3--->Warning
+2021/09/23 12:03:18.181  [N] [cli.go:80]  log3--->Notice
+2021/09/23 12:03:18.181  [I] [cli.go:81]  log3--->Info
+2021/09/23 12:03:18.181  [D] [cli.go:82]  log3--->Debug
+2021/09/23 12:03:18.861  [I] [parser.go:413]  generate router from comments
+2021/09/23 12:03:18.861  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 12:03:21.805  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.5933ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:03:21.818  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/font-awesome/css/font-awesome.css
+2021/09/23 12:03:21.818  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      627.3µs| nomatch|[44m GET     [0m /static/bootstrap/css/bootstrap.css
+2021/09/23 12:03:21.819  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/global.css
+2021/09/23 12:03:21.819  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      528.1µs| nomatch|[44m GET     [0m /static/js/jquery-1.12.4.min.js
+2021/09/23 12:03:21.819  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:03:21.820  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      516.2µs| nomatch|[44m GET     [0m /static/bootstrap/js/bootstrap.js
+2021/09/23 12:03:21.824  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      626.7µs| nomatch|[44m GET     [0m /static/bootstrap/js/bootstrap.js
+2021/09/23 12:03:21.845  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      374.8µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:03:35.228  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.9561ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:03:35.241  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      604.5µs| nomatch|[44m GET     [0m /static/bootstrap/css/bootstrap.css
+2021/09/23 12:03:35.241  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/css/global.css
+2021/09/23 12:03:35.241  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/bootstrap/js/bootstrap.js
+2021/09/23 12:03:35.241  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      605.7µs| nomatch|[44m GET     [0m /static/js/jquery-1.12.4.min.js
+2021/09/23 12:03:35.241  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/font-awesome/css/font-awesome.css
+2021/09/23 12:03:35.242  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      1.137ms| nomatch|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:03:35.247  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      307.9µs| nomatch|[44m GET     [0m /static/bootstrap/js/bootstrap.js
+2021/09/23 12:03:35.251  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      512.2µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:12:25.559  [I] [cli.go:76]  program start...
+2021/09/23 12:12:25.559  [C] [cli.go:77]  log3--->Critical
+2021/09/23 12:12:25.559  [E] [cli.go:78]  log3--->Error
+2021/09/23 12:12:25.559  [W] [cli.go:79]  log3--->Warning
+2021/09/23 12:12:25.559  [N] [cli.go:80]  log3--->Notice
+2021/09/23 12:12:25.559  [I] [cli.go:81]  log3--->Info
+2021/09/23 12:12:25.559  [D] [cli.go:82]  log3--->Debug
+2021/09/23 12:12:26.283  [I] [parser.go:413]  generate router from comments
+2021/09/23 12:12:26.283  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 12:12:31.811  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      887.9µs|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:12:31.826  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.3544ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:12:31.826  [D] [router.go:955]  |      127.0.0.1|[47m 304 [0m|      526.4µs|   match|[44m GET     [0m /static/font-awesome/css/font-awesome.css
+2021/09/23 12:12:31.826  [D] [router.go:955]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:12:31.827  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|        527µs|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:12:31.827  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0318ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:12:31.827  [D] [router.go:955]  |      127.0.0.1|[47m 304 [0m|      545.6µs|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:12:53.313  [D] [router.go:955]  |      127.0.0.1|[47m 304 [0m|      970.2µs|   match|[44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
+2021/09/23 12:12:53.328  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      202.5µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:13:02.395  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.7009ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:13:23.742  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      805.7µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:15:18.476  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.1796ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:15:39.820  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      584.8µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:16:13.751  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      530.2µs|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:16:24.962  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      1.765ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:16:24.986  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      146.3µs|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:16:24.987  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      573.5µs|   match|[44m GET     [0m /static/font-awesome/css/font-awesome.css
+2021/09/23 12:16:24.987  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      504.8µs|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:16:24.988  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.1034ms|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:16:24.988  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      598.6µs|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:16:24.988  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      598.6µs|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:16:25.071  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.1841ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:16:46.335  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      799.5µs|   match|[44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
+2021/09/23 12:16:46.354  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|        668µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:18:49.934  [I] [cli.go:76]  program start...
+2021/09/23 12:18:49.934  [C] [cli.go:77]  log3--->Critical
+2021/09/23 12:18:49.934  [E] [cli.go:78]  log3--->Error
+2021/09/23 12:18:49.934  [W] [cli.go:79]  log3--->Warning
+2021/09/23 12:18:49.934  [N] [cli.go:80]  log3--->Notice
+2021/09/23 12:18:49.934  [I] [cli.go:81]  log3--->Info
+2021/09/23 12:18:49.934  [D] [cli.go:82]  log3--->Debug
+2021/09/23 12:19:11.575  [I] [parser.go:413]  generate router from comments
+2021/09/23 12:19:11.575  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 12:19:25.745  [I] [cli.go:76]  program start...
+2021/09/23 12:19:25.745  [C] [cli.go:77]  log3--->Critical
+2021/09/23 12:19:25.745  [E] [cli.go:78]  log3--->Error
+2021/09/23 12:19:25.745  [W] [cli.go:79]  log3--->Warning
+2021/09/23 12:19:25.745  [N] [cli.go:80]  log3--->Notice
+2021/09/23 12:19:25.745  [I] [cli.go:81]  log3--->Info
+2021/09/23 12:19:25.745  [D] [cli.go:82]  log3--->Debug
+2021/09/23 12:19:47.405  [I] [parser.go:413]  generate router from comments
+2021/09/23 12:19:47.406  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 12:20:03.084  [I] [cli.go:76]  program start...
+2021/09/23 12:20:03.084  [C] [cli.go:77]  log3--->Critical
+2021/09/23 12:20:03.084  [E] [cli.go:78]  log3--->Error
+2021/09/23 12:20:03.084  [W] [cli.go:79]  log3--->Warning
+2021/09/23 12:20:03.084  [N] [cli.go:80]  log3--->Notice
+2021/09/23 12:20:03.084  [I] [cli.go:81]  log3--->Info
+2021/09/23 12:20:03.084  [D] [cli.go:82]  log3--->Debug
+2021/09/23 12:20:24.718  [I] [parser.go:413]  generate router from comments
+2021/09/23 12:20:24.719  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 12:20:44.086  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.7245ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:20:44.105  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0146ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:20:44.105  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      538.9µs|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:20:44.105  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0788ms|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:20:44.118  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      827.7µs|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:20:44.121  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|        903µs|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:20:44.158  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.6016ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:21:05.609  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      188.9µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:21:11.656  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      564.8µs|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:21:11.680  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0271ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:21:11.681  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:21:11.685  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     4.8475ms|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:21:11.685  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     4.8475ms|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:21:11.686  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     4.8494ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:21:11.737  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      573.4µs|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:21:15.919  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|       1.55ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:21:15.934  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.4872ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:21:15.936  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      919.7µs|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:21:15.937  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|        785µs|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:21:15.938  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.9514ms|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:21:15.939  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.2141ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:21:16.064  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.1732ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:26:12.176  [I] [cli.go:76]  program start...
+2021/09/23 12:26:12.177  [C] [cli.go:77]  log3--->Critical
+2021/09/23 12:26:12.177  [E] [cli.go:78]  log3--->Error
+2021/09/23 12:26:12.177  [W] [cli.go:79]  log3--->Warning
+2021/09/23 12:26:12.177  [N] [cli.go:80]  log3--->Notice
+2021/09/23 12:26:12.177  [I] [cli.go:81]  log3--->Info
+2021/09/23 12:26:12.177  [D] [cli.go:82]  log3--->Debug
+2021/09/23 12:26:33.863  [I] [parser.go:413]  generate router from comments
+2021/09/23 12:26:33.863  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 12:26:34.284  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      999.9µs|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:26:34.310  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.5645ms|   match|[44m GET     [0m /static/font-awesome-4.7.0/css/font-awesome.css
+2021/09/23 12:26:34.395  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      736.7µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2021/09/23 12:26:55.454  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.6743ms|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:50:59.882  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.5531ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:51:13.635  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.1969ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:51:18.962  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      747.9µs|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:51:18.981  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.5602ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:51:18.982  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      504.1µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/css/font-awesome.css
+2021/09/23 12:51:18.988  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     4.6744ms|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:51:18.989  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     4.5114ms|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:51:18.989  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     6.0248ms|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:51:18.990  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     3.2153ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:51:19.045  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0307ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:51:34.662  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.8919ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:51:38.132  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.3035ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:51:38.148  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:51:38.148  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.2394ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:51:38.148  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      507.9µs|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:51:38.150  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      912.3µs|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:51:38.148  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      507.9µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/css/font-awesome.css
+2021/09/23 12:51:38.152  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     3.5481ms|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:51:38.214  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.4157ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:51:40.024  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|        303µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2021/09/23 12:51:40.044  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      339.3µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:52:34.646  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.3901ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:52:34.671  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      510.1µs|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:52:34.671  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.1749ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:52:34.671  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      510.1µs|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:52:34.672  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.5212ms|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:52:34.672  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0111ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:52:34.674  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     3.1447ms|   match|[44m GET     [0m /static/font-awesome-4.7.0/css/font-awesome.css
+2021/09/23 12:52:34.740  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.3387ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:52:55.767  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      917.4µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2021/09/23 12:52:55.785  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      132.5µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:53:36.754  [C] [config.go:190]  the request url is  /login
+2021/09/23 12:53:36.754  [C] [config.go:191]  Handler crashed with error <Ormer.Using> unknown db alias name `default`
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:599
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:591
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Gos/src/web/web/models/user.go:48
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Gos/src/web/web/controllers/account.go:37
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Go/src/reflect/value.go:476
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Go/src/reflect/value.go:337
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 12:53:36.754  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 12:53:39.247  [C] [config.go:190]  the request url is  /login
+2021/09/23 12:53:39.247  [C] [config.go:191]  Handler crashed with error <Ormer.Using> unknown db alias name `default`
+2021/09/23 12:53:39.247  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 12:53:39.247  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:599
+2021/09/23 12:53:39.247  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:591
+2021/09/23 12:53:39.247  [C] [config.go:197]  C:/Gos/src/web/web/models/user.go:48
+2021/09/23 12:53:39.247  [C] [config.go:197]  C:/Gos/src/web/web/controllers/account.go:37
+2021/09/23 12:53:39.248  [C] [config.go:197]  C:/Go/src/reflect/value.go:476
+2021/09/23 12:53:39.248  [C] [config.go:197]  C:/Go/src/reflect/value.go:337
+2021/09/23 12:53:39.248  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/23 12:53:39.248  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 12:53:39.248  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 12:53:39.248  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 12:53:39.248  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 12:53:39.248  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 12:56:27.301  [I] [cli.go:76]  program start...
+2021/09/23 12:56:27.301  [C] [cli.go:77]  log3--->Critical
+2021/09/23 12:56:27.301  [E] [cli.go:78]  log3--->Error
+2021/09/23 12:56:27.301  [W] [cli.go:79]  log3--->Warning
+2021/09/23 12:56:27.301  [N] [cli.go:80]  log3--->Notice
+2021/09/23 12:56:27.301  [I] [cli.go:81]  log3--->Info
+2021/09/23 12:56:27.301  [D] [cli.go:82]  log3--->Debug
+2021/09/23 12:56:49.009  [I] [parser.go:413]  generate router from comments
+2021/09/23 12:56:49.009  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 12:56:49.276  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|          2ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:56:49.301  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      999.5µs|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:56:49.302  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:56:49.303  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|          1ms|   match|[44m GET     [0m /static/font-awesome-4.7.0/css/font-awesome.css
+2021/09/23 12:56:49.304  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|          2ms|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:56:49.307  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.0011ms|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:56:49.310  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0034ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:56:49.357  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      906.3µs|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:56:49.371  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      720.9µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2021/09/23 12:56:49.414  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|       76.2µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:56:51.721  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      1.007ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:56:51.738  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:56:51.738  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/font-awesome-4.7.0/css/font-awesome.css
+2021/09/23 12:56:51.739  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0003ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:56:51.739  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:56:51.739  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:56:51.740  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0003ms|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:56:51.789  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      699.7µs|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:56:51.801  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      923.8µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2021/09/23 12:56:51.817  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      866.2µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 12:56:55.141  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.5064ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 12:56:55.162  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      509.2µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/css/font-awesome.css
+2021/09/23 12:56:55.162  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.2433ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 12:56:55.162  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 12:56:55.163  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0079ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 12:56:55.163  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0079ms|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 12:56:55.164  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.7427ms|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 12:56:55.217  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2021/09/23 12:56:55.228  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|        871µs|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 12:56:55.247  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      908.2µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:00:57.964  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0311ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:00:57.985  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0523ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 13:00:57.985  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      503.9µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/css/font-awesome.css
+2021/09/23 13:00:57.987  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.0057ms|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 13:00:57.987  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.0057ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 13:00:57.988  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     3.0062ms|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 13:00:57.989  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     4.2432ms|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 13:00:58.052  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2021/09/23 13:00:58.058  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0471ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 13:00:58.071  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      632.5µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:01:00.028  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.2346ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:01:00.051  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 13:01:00.051  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js
+2021/09/23 13:01:00.051  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      505.1µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/css/font-awesome.css
+2021/09/23 13:01:00.051  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0956ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css
+2021/09/23 13:01:00.053  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.0107ms|   match|[44m GET     [0m /static/js/jquery-3.5.1.js
+2021/09/23 13:01:00.053  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.0107ms|   match|[44m GET     [0m /static/js/jquery.form.js
+2021/09/23 13:01:00.102  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.4699ms|   match|[44m GET     [0m /static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map
+2021/09/23 13:01:00.115  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      892.7µs|   match|[44m GET     [0m /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2021/09/23 13:01:00.130  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      929.3µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:01:11.594  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.5769ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:01:11.662  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:25:17.759  [I] [cli.go:76]  program start...
+2021/09/23 13:25:17.759  [C] [cli.go:77]  log3--->Critical
+2021/09/23 13:25:17.759  [E] [cli.go:78]  log3--->Error
+2021/09/23 13:25:17.759  [W] [cli.go:79]  log3--->Warning
+2021/09/23 13:25:17.759  [N] [cli.go:80]  log3--->Notice
+2021/09/23 13:25:17.759  [I] [cli.go:81]  log3--->Info
+2021/09/23 13:25:17.759  [D] [cli.go:82]  log3--->Debug
+2021/09/23 13:25:39.405  [I] [parser.go:413]  generate router from comments
+2021/09/23 13:25:39.405  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 13:25:40.386  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.2434ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:25:40.406  [D] [router.go:955]  |      127.0.0.1|[47m 304 [0m|      628.8µs|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 13:25:40.489  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      490.4µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:26:44.032  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0283ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:26:44.089  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      596.7µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:26:49.351  [C] [config.go:190]  the request url is  /login
+2021/09/23 13:26:49.351  [C] [config.go:191]  Handler crashed with error <Ormer.Using> unknown db alias name `default`
+2021/09/23 13:26:49.351  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:599
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm.go:591
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Gos/src/web/web/models/user.go:48
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Gos/src/web/web/controllers/account.go:37
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Go/src/reflect/value.go:476
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Go/src/reflect/value.go:337
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 13:26:49.352  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 13:27:01.524  [I] [cli.go:76]  program start...
+2021/09/23 13:27:01.524  [C] [cli.go:77]  log3--->Critical
+2021/09/23 13:27:01.524  [E] [cli.go:78]  log3--->Error
+2021/09/23 13:27:01.524  [W] [cli.go:79]  log3--->Warning
+2021/09/23 13:27:01.524  [N] [cli.go:80]  log3--->Notice
+2021/09/23 13:27:01.524  [I] [cli.go:81]  log3--->Info
+2021/09/23 13:27:01.524  [D] [cli.go:82]  log3--->Debug
+2021/09/23 13:27:02.191  [I] [parser.go:413]  generate router from comments
+2021/09/23 13:27:02.192  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 13:27:08.447  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.3784ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:27:08.506  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      709.8µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:27:16.823  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     2.0394ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:27:16.879  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      389.2µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:27:29.912  [C] [config.go:190]  the request url is  /login
+2021/09/23 13:27:29.912  [C] [config.go:191]  Handler crashed with error unknown field/column name `account`
+2021/09/23 13:27:29.912  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 13:27:29.912  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db_tables.go:368
+2021/09/23 13:27:29.912  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db.go:1024
+2021/09/23 13:27:29.912  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm_queryset.go:251
+2021/09/23 13:27:29.913  [C] [config.go:197]  C:/Gos/src/web/web/models/user.go:50
+2021/09/23 13:27:29.913  [C] [config.go:197]  C:/Gos/src/web/web/controllers/account.go:37
+2021/09/23 13:27:29.913  [C] [config.go:197]  C:/Go/src/reflect/value.go:476
+2021/09/23 13:27:29.913  [C] [config.go:197]  C:/Go/src/reflect/value.go:337
+2021/09/23 13:27:29.913  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/23 13:27:29.913  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 13:27:29.913  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 13:27:29.913  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 13:27:29.913  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 13:27:29.913  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 13:27:52.844  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      112.6µs| nomatch|[44m GET     [0m /  
+2021/09/23 13:28:53.087  [I] [cli.go:76]  program start...
+2021/09/23 13:28:53.087  [C] [cli.go:77]  log3--->Critical
+2021/09/23 13:28:53.087  [E] [cli.go:78]  log3--->Error
+2021/09/23 13:28:53.087  [W] [cli.go:79]  log3--->Warning
+2021/09/23 13:28:53.087  [N] [cli.go:80]  log3--->Notice
+2021/09/23 13:28:53.087  [I] [cli.go:81]  log3--->Info
+2021/09/23 13:28:53.087  [D] [cli.go:82]  log3--->Debug
+2021/09/23 13:28:53.732  [I] [parser.go:413]  generate router from comments
+2021/09/23 13:28:53.733  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 13:28:55.181  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0574ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:29:01.479  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.9957ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:29:01.492  [D] [router.go:955]  |      127.0.0.1|[47m 304 [0m|      466.6µs|   match|[44m GET     [0m /static/css/global.css
+2021/09/23 13:29:01.531  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      842.3µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:29:04.598  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.2783ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:29:04.647  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      977.6µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:29:13.685  [D] [router.go:955]  |      127.0.0.1|[43m 404 [0m|      352.3µs| nomatch|[44m GET     [0m /  
+2021/09/23 13:29:17.870  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.1037ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:29:17.918  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      726.2µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:30:00.711  [I] [cli.go:76]  program start...
+2021/09/23 13:30:00.712  [C] [cli.go:77]  log3--->Critical
+2021/09/23 13:30:00.712  [E] [cli.go:78]  log3--->Error
+2021/09/23 13:30:00.712  [W] [cli.go:79]  log3--->Warning
+2021/09/23 13:30:00.712  [N] [cli.go:80]  log3--->Notice
+2021/09/23 13:30:00.712  [I] [cli.go:81]  log3--->Info
+2021/09/23 13:30:00.712  [D] [cli.go:82]  log3--->Debug
+2021/09/23 13:30:01.327  [I] [parser.go:413]  generate router from comments
+2021/09/23 13:30:01.327  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 13:30:10.095  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|     1.0574ms|   match|[44m GET     [0m /login   r:/login
+2021/09/23 13:30:10.146  [D] [router.go:955]  |      127.0.0.1|[42m 200 [0m|      350.3µs|   match|[44m GET     [0m /favicon.ico
+2021/09/23 13:32:30.615  [I] [cli.go:76]  program start...
+2021/09/23 13:32:30.615  [C] [cli.go:77]  log3--->Critical
+2021/09/23 13:32:30.615  [E] [cli.go:78]  log3--->Error
+2021/09/23 13:32:30.615  [W] [cli.go:79]  log3--->Warning
+2021/09/23 13:32:30.615  [N] [cli.go:80]  log3--->Notice
+2021/09/23 13:32:30.615  [I] [cli.go:81]  log3--->Info
+2021/09/23 13:32:30.615  [D] [cli.go:82]  log3--->Debug
+2021/09/23 13:32:31.237  [I] [parser.go:413]  generate router from comments
+2021/09/23 13:32:31.237  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 13:32:40.798  [C] [config.go:190]  the request url is  /login
+2021/09/23 13:32:40.798  [C] [config.go:191]  Handler crashed with error unknown field/column name `account`
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db_tables.go:368
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db.go:1024
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm_queryset.go:251
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Gos/src/web/web/models/user.go:50
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Gos/src/web/web/controllers/account.go:37
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Go/src/reflect/value.go:476
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Go/src/reflect/value.go:337
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 13:32:40.799  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 13:32:43.027  [C] [config.go:190]  the request url is  /login
+2021/09/23 13:32:43.027  [C] [config.go:191]  Handler crashed with error unknown field/column name `account`
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Go/src/runtime/panic.go:965
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db_tables.go:368
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/db.go:1024
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/client/orm/orm_queryset.go:251
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Gos/src/web/web/models/user.go:50
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Gos/src/web/web/controllers/account.go:37
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Go/src/reflect/value.go:476
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Go/src/reflect/value.go:337
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:883
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/filter.go:81
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/router.go:664
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Go/src/net/http/server.go:2867
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Go/src/net/http/server.go:1932
+2021/09/23 13:32:43.027  [C] [config.go:197]  C:/Go/src/runtime/asm_amd64.s:1371
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/23 13:33:03.294  [I] [cli.go:76]  program start...
+2021/09/23 13:33:03.294  [C] [cli.go:77]  log3--->Critical
+2021/09/23 13:33:03.294  [E] [cli.go:78]  log3--->Error
+2021/09/23 13:33:03.294  [W] [cli.go:79]  log3--->Warning
+2021/09/23 13:33:03.294  [N] [cli.go:80]  log3--->Notice
+2021/09/23 13:33:03.294  [I] [cli.go:81]  log3--->Info
+2021/09/23 13:33:03.294  [D] [cli.go:82]  log3--->Debug
+2021/09/23 13:33:03.912  [I] [parser.go:413]  generate router from comments
+2021/09/23 13:33:03.912  [I] [server.go:241]  http server Running on http://:8080
+2021/09/23 13:33:48.073  [I] [cli.go:76]  program start...
+2021/09/23 13:33:48.074  [C] [cli.go:77]  log3--->Critical
+2021/09/23 13:33:48.075  [E] [cli.go:78]  log3--->Error
+2021/09/23 13:33:48.075  [W] [cli.go:79]  log3--->Warning
+2021/09/23 13:33:48.075  [N] [cli.go:80]  log3--->Notice
+2021/09/23 13:33:48.076  [I] [cli.go:81]  log3--->Info
+2021/09/23 13:33:48.076  [D] [cli.go:82]  log3--->Debug
+2021/09/23 13:33:53.767  [I] [parser.go:413]  generate router from comments
+2021/09/23 13:33:53.768  [I] [server.go:241]  http server Running on http://:8080

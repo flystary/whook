@@ -1,0 +1,7 @@
+2021/09/26 17:08:05.268  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|   2.708692ms|   match|[97;44m GET     [0m /     r:/
+2021/09/26 17:08:05.282  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    113.543µs|   match|[97;44m GET     [0m /static/uploads/202109/avatar_16f81400.jpeg
+2021/09/26 17:08:05.283  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|     49.944µs|   match|[97;44m GET     [0m /static/codemirror/lib/codemirror.css
+2021/09/26 17:08:05.298  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    174.577µs|   match|[97;44m GET     [0m /static/codemirror/addon/edit/matchbrackets.js
+2021/09/26 17:08:05.298  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    144.941µs|   match|[97;44m GET     [0m /static/codemirror/lib/codemirror.js
+2021/09/26 17:08:05.305  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    133.631µs|   match|[97;44m GET     [0m /static/js/global.js
+2021/09/26 17:08:05.305  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|     43.661µs|   match|[97;44m GET     [0m /static/js/shell.js

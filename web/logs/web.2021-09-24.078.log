@@ -1,0 +1,7 @@
+2021/09/24 17:51:22.987  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.2765ms|   match|[44m GET     [0m /static/images/headimgurl.jpg
+2021/09/24 17:51:24.732  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.2637ms|   match|[44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
+2021/09/24 17:51:25.686  [D] [log.go:756]  template Execute err: template: user/edit.html:83:58: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
+2021/09/24 17:51:25.686  [E] [log.go:720]  template: user/edit.html:83:58: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
+2021/09/24 17:51:25.686  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.5122ms|   match|[44m GET     [0m /my   r:/my
+2021/09/24 17:51:34.233  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
+2021/09/24 17:51:34.237  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.4719ms|   match|[44m GET     [0m /server   r:/server

@@ -1,0 +1,10 @@
+0001/01/01 00:00:00.000  [M] [log.go:184]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 10:43:30.339  [I] [log.go:745]  generate router from comments
+2021/09/24 10:43:30.340  [I] [log.go:745]  http server Running on http://:8080
+2021/09/24 10:43:35.154  [C] [log.go:715]  the request url is  /
+2021/09/24 10:43:35.154  [C] [log.go:715]  Handler crashed with error can't find templatefile in the path:views/home/login.html
+2021/09/24 10:43:35.154  [C] [log.go:715]  C:/Go/src/runtime/panic.go:965
+2021/09/24 10:43:35.154  [C] [log.go:715]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/template.go:75
+2021/09/24 10:43:35.154  [C] [log.go:715]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:311
+2021/09/24 10:43:35.154  [C] [log.go:715]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:262
+2021/09/24 10:43:35.154  [C] [log.go:715]  C:/Gos/pkg/mod/github.com/beego/beego/v2@v2.0.1/server/web/controller.go:239

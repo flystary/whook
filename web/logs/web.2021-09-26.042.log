@@ -1,0 +1,8 @@
+2021/09/26 13:32:42.619  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|  42.0095813s|   match|[44m GET     [0m /member   r:/member
+2021/09/26 13:36:04.729  [E] [log.go:720]   dial tcp 192.168.10.10:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021/09/26 13:36:04.733  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|  42.0107865s|   match|[44m GET     [0m /server   r:/server
+2021/09/26 13:41:00.048  [I] [log.go:745]  generate router from comments
+2021/09/26 13:41:00.049  [I] [log.go:745]  http server Running on http://:8080
+2021/09/26 13:42:15.818  [D] [log.go:750]  |      127.0.0.1|[47m 302 [0m|           0s| nomatch|[44m GET     [0m /  
+2021/09/26 13:42:15.828  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.4235ms|   match|[44m GET     [0m /login   r:/login
+2021/09/26 13:42:16.068  [D] [log.go:750]  |      127.0.0.1|[43m 404 [0m|      737.2µs| nomatch|[44m GET     [0m /favicon.ico

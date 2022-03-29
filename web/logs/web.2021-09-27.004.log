@@ -1,0 +1,11 @@
+2021/09/27 12:14:11.104  [I] [log.go:745]  http server Running on http://127.0.0.1:8080
+2021/09/27 12:14:11.104  [C] [log.go:715]  ListenAndServe:  listen tcp 127.0.0.1:8080: bind: address already in use
+2021/09/27 12:14:12.537  [I] [log.go:745]  generate router from comments
+2021/09/27 12:14:12.538  [I] [log.go:745]  http server Running on http://127.0.0.1:8080
+2021/09/27 12:14:12.538  [C] [log.go:715]  ListenAndServe:  listen tcp 127.0.0.1:8080: bind: address already in use
+2021/09/27 12:14:14.971  [I] [log.go:745]  generate router from comments
+2021/09/27 12:14:14.971  [I] [log.go:745]  http server Running on http://127.0.0.1:8080
+2021/09/27 12:14:14.971  [C] [log.go:715]  ListenAndServe:  listen tcp 127.0.0.1:8080: bind: address already in use
+2021/09/27 12:14:18.439  [I] [log.go:745]  generate router from comments
+2021/09/27 12:14:18.440  [I] [log.go:745]  http server Running on http://127.0.0.1:8080
+2021/09/27 12:14:18.440  [C] [log.go:715]  ListenAndServe:  listen tcp 127.0.0.1:8080: bind: address already in use

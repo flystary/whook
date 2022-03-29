@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit WebHook - SmartWebHook</title>
+    {{template "widgets/headfile.html"}}
+
+</head>
+<body>
+{{template "widgets/head.html" .}}
+<div class="container">
+    <div class="bs-docs-container">
+        <form method="post" action='{{urlfor "HomeController.Edit"}}' id="webHookForm">
+            <input type="hidden" name="id" value="{{.Model.WebHookId}}">
+            <div class="title">
+                <h3>Edit WebHook </h3>
+                <hr>
+            </div>
+            <div class="body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <label>Git Repository</label>
+                            <input type="text" name="name" id="repositoryName" placeholder="Repository Name" class="form-control" value="{{.Model.RepositoryName}}">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <label>Branch</label>
+                            <input type="text" name="branch" id="repositoryBranch" placeholder="Repository Branch" class="form-control" value="{{.Model.BranchName}}">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <label for="hookType">WebHook Type</label>
+                            <select name="hook_type" class="form-control" id="hookType">
+                                <option>None</option>
+                                <option value="github"{{if eq .Model.HookType "github"}} selected{{end}}>GitHub</option>
+                                <option value="gitlab"{{if eq .Model.HookType "gitlab"}} selected{{end}}>GitLab</option>
+                                <option value="gogs"{{if eq .Model.HookType "gogs"}} selected{{end}}>Gogs</option>
+                                <option value="gitosc"{{if eq .Model.HookType "gitosc"}} selected{{end}}>GitOsc</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label>URL</label>
+                            <input type="text" readonly name="key" id="privateKey" placeholder="Git Web Hook URL" class="form-control" value="{{.HookUrl}}">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <label>Secure</label>
+                            <input type="text" readonly name="secure" id="secure" placeholder="Secure" class="form-control" value="{{.Model.Secure}}">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label>Status</label>
+                                <div>
+                                    <label>
+                                        <input type="radio" name="status" value="0" {{if eq .Model.Status 0}}checked{{end}}> 启用
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="status" value="1" {{if eq .Model.Status 1}}checked{{end}}> 禁用
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                        <label for="shellScript">Callback Shell Script <a href="###"><i class="fa fa-question" aria-hidden="true"></i></a></label>
+                        <textarea name="shell" id="shellScript" class="form-control" style="height: 150px;resize: none">{{.Model.Shell}}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body-botton text-center">
+                <span class="text" style="padding-right: 15px;" id="errorMessage"></span>
+
+                <a href='{{urlfor "HomeController.Index"}}' class="btn btn-success btn-sm">Back WebHook List</a>
+                <button id="saveWebHookBtn" type="submit" class="btn btn-info btn-sm" data-load-text="saving">Save Changes</button>
+
+            </div>
+        </form>
+    </div>
+</div>
+{{template "widgets/foot.html" .}}
+<script type="text/javascript">
+    $(function () {
+       window.loadCodeMirrorEditor("shellScript");
+    });
+</script>
+</body>
+</html>

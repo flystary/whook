@@ -1,0 +1,6 @@
+2021/09/26 12:30:18.319  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.1396ms|   match|[44m GET     [0m /server   r:/server
+2021/09/26 13:31:55.654  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.8875ms|   match|[44m GET     [0m /my   r:/my
+2021/09/26 13:31:55.687  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|      780.2µs|   match|[44m GET     [0m /static/uploads/202109/avatar_16f81400.jpeg
+2021/09/26 13:32:33.824  [E] [log.go:720]   dial tcp 192.168.10.10:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2021/09/26 13:32:33.831  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|  42.0138709s|   match|[44m GET     [0m /     r:/
+2021/09/26 13:32:35.236  [E] [log.go:720]   dial tcp 192.168.10.10:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.

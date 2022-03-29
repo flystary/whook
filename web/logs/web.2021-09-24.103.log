@@ -1,0 +1,9 @@
+2021/09/24 18:04:29.060  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.8512ms|   match|[44m GET     [0m /my   r:/my
+2021/09/24 18:06:17.307  [I] [log.go:745]  generate router from comments
+2021/09/24 18:06:17.308  [I] [log.go:745]  http server Running on http://:8080
+2021/09/24 18:06:23.537  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
+2021/09/24 18:06:23.540  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.4554ms|   match|[44m GET     [0m /     r:/
+2021/09/24 18:06:23.560  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.0645ms|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css
+2021/09/24 18:06:23.561  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      979.9µs|   match|[44m GET     [0m /static/font-awesome/css/font-awesome.css
+2021/09/24 18:06:23.561  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      475.9µs|   match|[44m GET     [0m /static/css/global.css
+2021/09/24 18:06:23.563  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.6584ms|   match|[44m GET     [0m /static/js/jquery.form.js

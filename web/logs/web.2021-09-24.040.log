@@ -1,0 +1,11 @@
+2021/09/24 15:42:35.811  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|    10.5613ms|   match|[44m GET     [0m /     r:/
+2021/09/24 15:42:37.246  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
+2021/09/24 15:42:37.252  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     9.9258ms|   match|[44m GET     [0m /server   r:/server
+2021/09/24 15:42:37.850  [C] [log.go:715]  the request url is  /member
+2021/09/24 15:42:37.850  [C] [log.go:715]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2021/09/24 15:42:37.850  [C] [log.go:715]  C:/Go/src/runtime/panic.go:965
+2021/09/24 15:42:37.850  [C] [log.go:715]  C:/Go/src/runtime/panic.go:212
+2021/09/24 15:42:37.853  [C] [log.go:715]  C:/Go/src/runtime/signal_windows.go:239
+2021/09/24 15:42:37.855  [C] [log.go:715]  C:/Gos/src/web/web/controllers/user.go:30
+2021/09/24 15:42:37.855  [C] [log.go:715]  C:/Go/src/reflect/value.go:476
+2021/09/24 15:42:37.855  [C] [log.go:715]  C:/Go/src/reflect/value.go:337

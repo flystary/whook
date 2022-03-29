@@ -1,0 +1,11 @@
+0001/01/01 00:00:00.000  [M] [log.go:184]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/24 16:35:47.552  [I] [log.go:745]  generate router from comments
+2021/09/24 16:35:47.553  [I] [log.go:745]  http server Running on http://:8080
+2021/09/24 16:36:33.906  [C] [log.go:715]  the request url is  /member
+2021/09/24 16:36:33.911  [C] [log.go:715]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2021/09/24 16:36:33.911  [C] [log.go:715]  C:/Go/src/runtime/panic.go:965
+2021/09/24 16:36:33.911  [C] [log.go:715]  C:/Go/src/runtime/panic.go:212
+2021/09/24 16:36:33.912  [C] [log.go:715]  C:/Go/src/runtime/signal_windows.go:239
+2021/09/24 16:36:33.915  [C] [log.go:715]  C:/Gos/src/web/web/controllers/user.go:30
+2021/09/24 16:36:33.915  [C] [log.go:715]  C:/Go/src/reflect/value.go:476
+2021/09/24 16:36:33.915  [C] [log.go:715]  C:/Go/src/reflect/value.go:337

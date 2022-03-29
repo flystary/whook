@@ -1,0 +1,7 @@
+2021/09/26 11:39:55.361  [E] [log.go:720]  template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
+2021/09/26 11:39:55.363  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     6.0123ms|   match|[44m GET     [0m /my   r:/my
+2021/09/26 11:39:59.363  [D] [log.go:750]  |      127.0.0.1|[47m 302 [0m|      132.7µs|   match|[44m GET     [0m /logout   r:/logout
+2021/09/26 11:39:59.368  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.3161ms|   match|[44m GET     [0m /login   r:/login
+2021/09/26 11:40:07.102  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.5968ms|   match|[44m GET     [0m /     r:/
+2021/09/26 11:40:23.423  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      3.877ms|   match|[44m GET     [0m /member   r:/member
+2021/09/26 11:40:45.143  [D] [log.go:756]  template Execute err: template: user/list_item.html:23:135: executing "user/list_item.html" at <.MemberId>: can't evaluate field MemberId in type models.User

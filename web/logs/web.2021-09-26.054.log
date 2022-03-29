@@ -1,0 +1,7 @@
+2021/09/26 16:12:37.584  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|  10.192273ms|   match|[97;44m GET     [0m /static/codemirror/lib/codemirror.js
+2021/09/26 16:12:37.586  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    197.197µs|   match|[97;44m GET     [0m /static/js/global.js
+2021/09/26 16:12:37.586  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    198.853µs|   match|[97;44m GET     [0m /static/js/shell.js
+2021/09/26 16:12:41.623  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|   1.744116ms|   match|[97;44m GET     [0m /my   r:/my
+2021/09/26 16:12:41.653  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    110.036µs|   match|[97;44m GET     [0m /static/webuploader/webuploader.css
+2021/09/26 16:12:41.656  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    174.147µs|   match|[97;44m GET     [0m /static/cropper/cropper.css
+2021/09/26 16:12:41.666  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    311.524µs|   match|[97;44m GET     [0m /static/cropper/cropper.js

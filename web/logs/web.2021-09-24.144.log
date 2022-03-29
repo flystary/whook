@@ -1,0 +1,7 @@
+2021/09/24 19:17:01.883  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      679.3µs|   match|[44m GET     [0m /static/codemirror/addon/edit/matchbrackets.js
+2021/09/24 19:17:01.890  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      625.5µs|   match|[44m GET     [0m /static/js/global.js
+2021/09/24 19:17:01.889  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.4849ms|   match|[44m GET     [0m /static/js/shell.js
+2021/09/24 19:17:01.883  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.2673ms|   match|[44m GET     [0m /static/codemirror/lib/codemirror.js
+2021/09/24 19:17:01.884  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.7731ms|   match|[44m GET     [0m /static/bootstrap/js/bootstrap.js
+2021/09/24 19:17:01.950  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      941.2µs|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css.map
+2021/09/24 19:17:01.963  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      979.4µs|   match|[44m GET     [0m /static/images/headimgurl.jpg

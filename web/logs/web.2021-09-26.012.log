@@ -1,0 +1,9 @@
+0001/01/01 00:00:00.000  [M] [log.go:184]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2021/09/26 10:47:19.520  [I] [log.go:745]  generate router from comments
+2021/09/26 10:47:19.521  [I] [log.go:745]  http server Running on http://:8080
+2021/09/26 10:47:25.600  [E] [log.go:720]   Error 1054: Unknown column 'member_id' in 'order clause'
+2021/09/26 10:47:25.604  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.8599ms|   match|[44m GET     [0m /member   r:/member
+2021/09/26 10:48:04.379  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.8847ms|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css.map
+2021/09/26 10:48:22.244  [E] [log.go:720]   Error 1054: Unknown column 'member_id' in 'order clause'
+2021/09/26 10:48:22.248  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.0991ms|   match|[44m GET     [0m /member   r:/member
+2021/09/26 10:48:22.270  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.0448ms|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css

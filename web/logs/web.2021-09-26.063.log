@@ -1,0 +1,10 @@
+2021/09/26 17:09:05.175  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    654.446µs|   match|[97;44m GET     [0m /login   r:/login
+2021/09/26 17:09:12.067  [D] [log.go:750]  |   192.168.10.1|[90;47m 302 [0m|     19.938µs| nomatch|[97;44m GET     [0m /server
+2021/09/26 17:09:12.070  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    526.566µs|   match|[97;44m GET     [0m /login   r:/login
+2021/09/26 17:09:19.722  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|   2.347978ms|   match|[97;44m GET     [0m /     r:/
+2021/09/26 17:10:00.436  [I] [log.go:745]  generate router from comments
+2021/09/26 17:10:00.436  [I] [log.go:745]  http server Running on http://127.0.0.1:8080
+2021/09/26 17:10:00.437  [C] [log.go:715]  ListenAndServe:  listen tcp 127.0.0.1:8080: bind: address already in use
+2021/09/26 17:13:42.581  [I] [log.go:745]  generate router from comments
+2021/09/26 17:13:42.581  [I] [log.go:745]  http server Running on http://127.0.0.1:8080
+2021/09/26 17:13:57.260  [I] [log.go:745]  generate router from comments

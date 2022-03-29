@@ -1,0 +1,8 @@
+2021/09/24 11:54:08.428  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.5278ms|   match|[44m GET     [0m /static/codemirror/lib/codemirror.css
+2021/09/24 11:54:08.431  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.0702ms|   match|[44m GET     [0m /static/codemirror/addon/edit/matchbrackets.js
+2021/09/24 11:54:08.430  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.2531ms|   match|[44m GET     [0m /static/js/global.js
+2021/09/24 11:54:08.430  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.8544ms|   match|[44m GET     [0m /static/codemirror/lib/codemirror.js
+2021/09/24 11:54:08.429  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.0221ms|   match|[44m GET     [0m /static/js/shell.js
+2021/09/24 11:54:08.492  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.9546ms|   match|[44m GET     [0m /static/images/headimgurl.jpg
+2021/09/24 11:54:10.255  [C] [log.go:715]  the request url is  /member
+2021/09/24 11:54:10.255  [C] [log.go:715]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference

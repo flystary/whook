@@ -1,0 +1,7 @@
+2021/09/26 13:53:25.859  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     7.9227ms|   match|[44m GET     [0m /server   r:/server
+2021/09/26 13:53:33.677  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     8.4699ms|   match|[44m GET     [0m /server/edit/1   r:/server/edit/?:id
+2021/09/26 13:53:41.483  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     9.0221ms|   match|[44m GET     [0m /     r:/
+2021/09/26 13:54:03.556  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     8.4374ms|   match|[44m GET     [0m /hook/edit/1   r:/hook/edit/?:id
+2021/09/26 13:54:10.557  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     9.8315ms|   match|[44m GET     [0m /     r:/
+2021/09/26 13:54:12.128  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|    11.4717ms|   match|[44m GET     [0m /hook/server_list/1   r:/hook/server_list/:id
+2021/09/26 13:54:12.157  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.5433ms|   match|[44m GET     [0m /static/bootstrap/plugins/select2/css/select2.min.css

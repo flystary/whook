@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Server List - WebHook</title>
+    {{template "widgets/headfile.html" .}}
+
+</head>
+<body>
+{{template "widgets/head.html" .}}
+<div class="container">
+    <div class="bs-docs-container">
+        <div class="title">
+            <h3>Server List</h3>
+            <hr>
+        </div>
+        <div class="body">
+            <table class="table table-striped" id="serverTable">
+                <thead>
+                <tr>
+                    <th width="5%">#</th><th width="15%">Server Name</th><th>Server IP</th><th width="10%">Port</th><th width="10%">Status</th><th width="10%">Server Type</th><th width="15%">Create Time</th><th width="15%">Operate</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{if .lists}}
+                    {{range $index,$item := .lists}}
+                        {{template "server/index_list.html" $item}}
+                    {{end}}
+                {{end}}
+                </tbody>
+            </table>
+            {{if gt .totalCount 1}}
+            <nav>
+                {{.html}}
+            </nav>
+            {{end}}
+        </div>
+        <div class="body-botton text-center">
+            <button class="btn btn-success btn-sm" id="addServerBtn">添加新的 Server</button>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="serverModal" tabindex="-1" role="dialog" aria-labelledby="serverModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <form method="post" id="serverForm" action='{{urlfor "ServerController.Edit"}}'>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="webHookTitle">New WebHook</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <label>Server Name</label>
+                                    <input type="text" name="name" id="serverName" placeholder="Server Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <label for="serverIp">Server Ip</label>
+                                    <input type="text" name="ip" id="serverIp" placeholder="Server IP" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <label for="serverPort">Server SSH Port</label>
+                                    <input type="text" name="port" id="serverPort" placeholder="Port" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <label for="serverPort">Server SSH Account</label>
+                                    <input type="text" name="account" id="serverAccount" placeholder="Account" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="form-group">
+                                    <label for="serverTag">Tag <span class="text">(多个标签请用英文的“,”分割)</span></label>
+                                    <input type="text" name="tag" id="serverTag" placeholder="Tag" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="serverType">Server Type</label>
+                                    <select name="type" id="serverType" class="form-control">
+                                        <option value="ssh">SSH</option>
+                                        <option value="client">Client</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="serverKey">SSH Private Key / Account Password</label>
+                                    <textarea class="form-control" name="key" id="serverKey" placeholder="SSH Private Key / Account Password"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <span class="text error-message" id="errorMessage" style="padding-right: 15px;"></span>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" id="saveServerBtn">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{{template  "widgets/foot.html" .}}
+
+<script type="text/javascript">
+    $(function () {
+       $("#serverTable").on("click",".delete-btn",function () {
+            var id = $(this).attr("data-id");
+            var $this = $(this);
+            $.ajax({
+                url : '{{urlfor "ServerController.Delete"}}',
+                data : {"id":id},
+                type : "POST",
+                dataType : "json",
+                success : function (res) {
+                    if(res.errcode === 0){
+                        $this.closest("tr").empty().remove()
+                    }
+                }
+            })
+        }) ;
+    });
+</script>
+</body>
+</html>
