@@ -1,7 +1,0 @@
-2021/09/24 18:04:19.104  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      827.6µs|   match|[44m GET     [0m /static/js/jquery.form.js
-2021/09/24 18:04:19.105  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.6685ms|   match|[44m GET     [0m /static/bootstrap/js/bootstrap.js
-2021/09/24 18:04:19.151  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      273.9µs|   match|[44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
-2021/09/24 18:04:19.161  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      857.8µs|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css.map
-2021/09/24 18:04:26.142  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
-2021/09/24 18:04:26.147  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.0376ms|   match|[44m GET     [0m /     r:/
-2021/09/24 18:04:26.167  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      504.1µs|   match|[44m GET     [0m /static/codemirror/lib/codemirror.css

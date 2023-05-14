@@ -1,7 +1,0 @@
-2021/09/26 16:12:30.024  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|  15.661911ms|   match|[97;44m GET     [0m /static/js/jquery.form.js
-2021/09/26 16:12:30.083  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    239.138µs|   match|[97;44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
-2021/09/26 16:12:30.095  [D] [log.go:750]  |   192.168.10.1|[97;43m 404 [0m|      229.6µs| nomatch|[97;44m GET     [0m /favicon.ico
-2021/09/26 16:12:37.537  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|   2.424249ms|   match|[97;44m GET     [0m /     r:/
-2021/09/26 16:12:37.555  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    365.734µs|   match|[97;44m GET     [0m /static/uploads/202109/avatar_16f81400.jpeg
-2021/09/26 16:12:37.556  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    622.886µs|   match|[97;44m GET     [0m /static/codemirror/lib/codemirror.css
-2021/09/26 16:12:37.573  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    188.523µs|   match|[97;44m GET     [0m /static/codemirror/addon/edit/matchbrackets.js

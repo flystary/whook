@@ -1,8 +1,0 @@
-2021/09/26 16:12:10.050  [I] [log.go:745]  http server Running on http://:8080
-2021/09/26 16:12:29.955  [D] [log.go:750]  |   192.168.10.1|[90;47m 302 [0m|     76.454µs| nomatch|[97;44m GET     [0m /  
-2021/09/26 16:12:29.959  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|     747.97µs|   match|[97;44m GET     [0m /login   r:/login
-2021/09/26 16:12:29.995  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|     603.75µs|   match|[97;44m GET     [0m /static/bootstrap/css/bootstrap.css
-2021/09/26 16:12:29.996  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|   1.010602ms|   match|[97;44m GET     [0m /static/js/jquery-1.12.4.min.js
-2021/09/26 16:12:30.003  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    947.694µs|   match|[97;44m GET     [0m /static/css/global.css
-2021/09/26 16:12:30.022  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|  18.849211ms|   match|[97;44m GET     [0m /static/font-awesome/css/font-awesome.css
-2021/09/26 16:12:30.023  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|  14.954396ms|   match|[97;44m GET     [0m /static/bootstrap/js/bootstrap.js

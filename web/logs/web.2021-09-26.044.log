@@ -1,8 +1,0 @@
-2021/09/26 13:46:31.879  [I] [log.go:745]  http server Running on http://:8080
-2021/09/26 13:46:44.833  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     8.1363ms|   match|[44m GET     [0m /     r:/
-2021/09/26 13:46:44.905  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|       1.62ms|   match|[44m GET     [0m /static/uploads/202109/avatar_16f81400.jpeg
-2021/09/26 13:46:54.460  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|   6.8113299s|   match|[44m GET     [0m /member   r:/member
-2021/09/26 13:46:59.585  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
-2021/09/26 13:46:59.590  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     7.6977ms|   match|[44m GET     [0m /server   r:/server
-2021/09/26 13:49:24.517  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     8.5329ms|   match|[44m GET     [0m /member   r:/member
-2021/09/26 13:49:27.681  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'

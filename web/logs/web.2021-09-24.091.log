@@ -1,7 +1,0 @@
-2021/09/24 18:03:54.698  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|        552µs|   match|[44m GET     [0m /static/bootstrap/js/bootstrap.js
-2021/09/24 18:03:54.701  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.0723ms|   match|[44m GET     [0m /static/js/global.js
-2021/09/24 18:03:54.700  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      514.4µs|   match|[44m GET     [0m /static/js/shell.js
-2021/09/24 18:03:54.698  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|        552µs|   match|[44m GET     [0m /static/codemirror/addon/edit/matchbrackets.js
-2021/09/24 18:03:54.757  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      1.165ms|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css.map
-2021/09/24 18:03:54.774  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      753.6µs|   match|[44m GET     [0m /static/images/headimgurl.jpg
-2021/09/24 18:04:11.549  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'

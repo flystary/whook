@@ -1,8 +1,0 @@
-2021/09/26 10:58:41.367  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
-2021/09/26 10:58:41.374  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     7.6283ms|   match|[44m GET     [0m /server   r:/server
-2021/09/26 10:58:42.025  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.1975ms|   match|[44m GET     [0m /member   r:/member
-2021/09/26 10:59:11.646  [I] [log.go:745]  generate router from comments
-2021/09/26 10:59:11.646  [I] [log.go:745]  http server Running on http://:8080
-2021/09/26 10:59:13.594  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.6594ms|   match|[44m GET     [0m /member   r:/member
-2021/09/26 11:00:01.066  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.6756ms|   match|[44m GET     [0m /member   r:/member
-2021/09/26 11:00:03.274  [D] [log.go:756]  template Execute err: template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId

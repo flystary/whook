@@ -1,7 +1,0 @@
-2021/09/24 17:51:22.904  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.6266ms|   match|[44m GET     [0m /static/css/global.css
-2021/09/24 17:51:22.905  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.1085ms|   match|[44m GET     [0m /static/codemirror/lib/codemirror.js
-2021/09/24 17:51:22.909  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/codemirror/addon/edit/matchbrackets.js
-2021/09/24 17:51:22.905  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      561.8µs|   match|[44m GET     [0m /static/bootstrap/js/bootstrap.js
-2021/09/24 17:51:22.909  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/shell.js
-2021/09/24 17:51:22.910  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      504.3µs|   match|[44m GET     [0m /static/js/global.js
-2021/09/24 17:51:22.958  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.2202ms|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css.map

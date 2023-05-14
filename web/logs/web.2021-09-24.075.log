@@ -1,7 +1,0 @@
-2021/09/24 17:41:23.633  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|        564µs|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css.map
-2021/09/24 17:41:23.646  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      522.3µs|   match|[44m GET     [0m /static/images/headimgurl.jpg
-2021/09/24 17:41:24.902  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.3152ms|   match|[44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
-2021/09/24 17:41:25.607  [D] [log.go:756]  template Execute err: template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
-2021/09/24 17:41:25.607  [E] [log.go:720]  template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
-2021/09/24 17:41:25.607  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.0841ms|   match|[44m GET     [0m /my   r:/my
-2021/09/24 17:51:17.458  [I] [log.go:745]  generate router from comments

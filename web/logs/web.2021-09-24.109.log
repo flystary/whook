@@ -1,7 +1,0 @@
-2021/09/24 18:10:14.505  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.6981ms|   match|[44m GET     [0m /static/webuploader/webuploader.css
-2021/09/24 18:10:14.514  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.3519ms|   match|[44m GET     [0m /static/css/global.css
-2021/09/24 18:10:14.512  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      909.5µs|   match|[44m GET     [0m /static/codemirror/lib/codemirror.css
-2021/09/24 18:10:14.512  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      909.5µs|   match|[44m GET     [0m /static/font-awesome/css/font-awesome.css
-2021/09/24 18:10:14.507  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      561.7µs|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css
-2021/09/24 18:10:14.506  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.4616ms|   match|[44m GET     [0m /static/cropper/cropper.css
-2021/09/24 18:10:14.516  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      793.8µs|   match|[44m GET     [0m /static/bootstrap/js/bootstrap.js

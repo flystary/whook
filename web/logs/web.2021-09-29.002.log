@@ -1,7 +1,0 @@
-2021/09/29 18:07:24.428  [D] [log.go:750]  |   192.168.10.1|[90;47m 302 [0m|     49.253µs| nomatch|[97;44m GET     [0m /  
-2021/09/29 18:07:24.440  [D] [log.go:750]  |   192.168.10.1|[97;42m 200 [0m|    482.385µs|   match|[97;44m GET     [0m /login   r:/login
-2021/09/29 18:07:24.456  [D] [log.go:750]  |   192.168.10.1|[90;47m 304 [0m|     71.875µs|   match|[97;44m GET     [0m /static/bootstrap/css/bootstrap.css
-2021/09/29 18:07:24.459  [D] [log.go:750]  |   192.168.10.1|[90;47m 304 [0m|    721.633µs|   match|[97;44m GET     [0m /static/font-awesome/css/font-awesome.css
-2021/09/29 18:07:24.461  [D] [log.go:750]  |   192.168.10.1|[90;47m 304 [0m|   2.072696ms|   match|[97;44m GET     [0m /static/css/global.css
-2021/09/29 18:07:24.462  [D] [log.go:750]  |   192.168.10.1|[90;47m 304 [0m|   1.117314ms|   match|[97;44m GET     [0m /static/bootstrap/js/bootstrap.js
-2021/09/29 18:07:24.463  [D] [log.go:750]  |   192.168.10.1|[90;47m 304 [0m|   1.913878ms|   match|[97;44m GET     [0m /static/js/jquery-1.12.4.min.js

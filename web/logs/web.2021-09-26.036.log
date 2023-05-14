@@ -1,8 +1,0 @@
-2021/09/26 12:28:27.069  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.9255ms|   match|[44m GET     [0m /member   r:/member
-2021/09/26 12:28:27.084  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|      899.9µs|   match|[44m GET     [0m /static/uploads/202109/avatar_16f81400.jpeg
-2021/09/26 12:28:28.550  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.9622ms|   match|[44m GET     [0m /     r:/
-2021/09/26 12:28:28.567  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|      702.5µs|   match|[44m GET     [0m /static/uploads/202109/avatar_16f81400.jpeg
-2021/09/26 12:28:28.975  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.0403ms|   match|[44m GET     [0m /     r:/
-2021/09/26 12:28:30.059  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
-2021/09/26 12:28:30.064  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.4036ms|   match|[44m GET     [0m /server   r:/server
-2021/09/26 12:28:30.078  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|        147µs|   match|[44m GET     [0m /static/uploads/202109/avatar_16f81400.jpeg

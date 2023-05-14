@@ -1,7 +1,0 @@
-2021/09/24 18:02:29.672  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.3325ms|   match|[44m GET     [0m /static/bootstrap/css/bootstrap.css
-2021/09/24 18:02:29.678  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.5378ms|   match|[44m GET     [0m /static/bootstrap/js/bootstrap.js
-2021/09/24 18:02:29.672  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      742.2µs|   match|[44m GET     [0m /static/css/global.css
-2021/09/24 18:02:29.674  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      764.5µs|   match|[44m GET     [0m /static/js/jquery.form.js
-2021/09/24 18:02:29.678  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      506.3µs|   match|[44m GET     [0m /static/codemirror/addon/edit/matchbrackets.js
-2021/09/24 18:02:29.680  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      613.8µs|   match|[44m GET     [0m /static/js/shell.js
-2021/09/24 18:02:29.672  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      742.2µs|   match|[44m GET     [0m /static/codemirror/lib/codemirror.css

@@ -1,7 +1,0 @@
-2021/09/24 18:10:14.517  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.0348ms|   match|[44m GET     [0m /static/js/jquery.form.js
-2021/09/24 18:10:14.521  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.2864ms|   match|[44m GET     [0m /static/js/global.js
-2021/09/24 18:10:14.517  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/codemirror/addon/edit/matchbrackets.js
-2021/09/24 18:10:14.517  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.5015ms|   match|[44m GET     [0m /static/js/jquery-1.12.4.min.js
-2021/09/24 18:10:14.517  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.2502ms|   match|[44m GET     [0m /static/codemirror/lib/codemirror.js
-2021/09/24 18:10:14.518  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      526.4µs|   match|[44m GET     [0m /static/js/shell.js
-2021/09/24 18:10:14.527  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.6172ms|   match|[44m GET     [0m /static/cropper/cropper.js

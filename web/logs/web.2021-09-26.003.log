@@ -1,9 +1,0 @@
-2021/09/26 09:43:48.612  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|     1.3919ms|   match|[44m GET     [0m /static/js/global.js
-2021/09/26 09:43:48.614  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|      3.281ms|   match|[44m GET     [0m /static/js/shell.js
-2021/09/26 09:43:48.615  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|     6.8242ms|   match|[44m GET     [0m /static/js/jquery.form.js
-2021/09/26 09:43:48.614  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|     5.2297ms|   match|[44m GET     [0m /static/bootstrap/js/bootstrap.js
-2021/09/26 09:48:16.482  [I] [log.go:745]  generate router from comments
-2021/09/26 09:48:16.482  [I] [log.go:745]  http server Running on http://:8080
-2021/09/26 09:48:23.274  [E] [log.go:720]   Error 1370: execute command denied to user 'devops'@'%' for routine 'strconv.Itoa'
-2021/09/26 09:48:23.279  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     6.3474ms|   match|[44m GET     [0m /server   r:/server
-2021/09/26 09:48:40.610  [C] [log.go:715]  the request url is  /member

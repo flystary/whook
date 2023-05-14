@@ -1,9 +1,0 @@
-2021/09/26 11:14:43.562  [I] [log.go:745]  http server Running on http://:8080
-2021/09/26 11:14:46.153  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.8038ms|   match|[44m GET     [0m /member   r:/member
-2021/09/26 11:15:50.719  [I] [log.go:745]  generate router from comments
-2021/09/26 11:15:50.720  [I] [log.go:745]  http server Running on http://:8080
-2021/09/26 11:15:55.095  [D] [log.go:756]  template Execute err: template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
-2021/09/26 11:15:55.095  [E] [log.go:720]  template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
-2021/09/26 11:15:55.095  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.4034ms|   match|[44m GET     [0m /my   r:/my
-2021/09/26 11:16:18.875  [I] [log.go:745]  generate router from comments
-2021/09/26 11:16:18.875  [I] [log.go:745]  http server Running on http://:8080

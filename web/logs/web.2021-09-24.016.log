@@ -1,9 +1,0 @@
-2021/09/24 11:33:41.002  [E] [log.go:720]  template: widgets/head.html:16:21: executing "widgets/head.html" at <eq .Member.Role 0>: error calling eq: invalid type for comparison
-2021/09/24 11:33:41.004  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.6579ms|   match|[44m GET     [0m /     r:/
-2021/09/24 11:52:43.084  [E] [log.go:720]  parse template err: scheduler/detailed.html template: widgets/head.html:24: function "User" not defined
-2021/09/24 11:52:43.085  [W] [log.go:730]  template: widgets/head.html:24: function "User" not defined
-2021/09/24 11:53:14.617  [E] [log.go:720]  parse template err: home/edit.html template: widgets/head.html:24: function "User" not defined
-2021/09/24 11:53:14.617  [W] [log.go:730]  template: widgets/head.html:24: function "User" not defined
-2021/09/24 11:54:02.778  [I] [log.go:745]  generate router from comments
-2021/09/24 11:54:02.779  [I] [log.go:745]  http server Running on http://:8080
-2021/09/24 11:54:08.410  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.7973ms|   match|[44m GET     [0m /     r:/

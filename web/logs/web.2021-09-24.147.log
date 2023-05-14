@@ -1,8 +1,0 @@
-0001/01/01 00:00:00.000  [M] [log.go:184]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
-2021/09/24 19:19:49.544  [D] [log.go:756]  template Execute err: template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
-2021/09/24 19:19:49.544  [E] [log.go:720]  template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
-2021/09/24 19:19:49.545  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.2139ms|   match|[44m GET     [0m /my   r:/my
-2021/09/24 19:19:54.481  [C] [log.go:715]  the request url is  /member
-2021/09/24 19:19:54.483  [C] [log.go:715]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
-2021/09/24 19:19:54.483  [C] [log.go:715]  C:/Go/src/runtime/panic.go:965
-2021/09/24 19:19:54.483  [C] [log.go:715]  C:/Go/src/runtime/panic.go:212

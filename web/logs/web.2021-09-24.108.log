@@ -1,8 +1,0 @@
-2021/09/24 18:08:28.495  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      760.5µs|   match|[44m GET     [0m /static/images/headimgurl.jpg
-2021/09/24 18:08:30.308  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.1449ms|   match|[44m GET     [0m /static/font-awesome/fonts/fontawesome-webfont.woff2
-2021/09/24 18:08:31.053  [D] [log.go:756]  template Execute err: template: user/edit.html:94:146: executing "user/edit.html" at <.Model.Account>: nil pointer evaluating interface {}.Account
-2021/09/24 18:08:31.053  [E] [log.go:720]  template: user/edit.html:94:146: executing "user/edit.html" at <.Model.Account>: nil pointer evaluating interface {}.Account
-2021/09/24 18:08:31.053  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|      3.924ms|   match|[44m GET     [0m /my   r:/my
-2021/09/24 18:10:11.582  [I] [log.go:745]  generate router from comments
-2021/09/24 18:10:11.582  [I] [log.go:745]  http server Running on http://:8080
-2021/09/24 18:10:14.482  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     3.3477ms|   match|[44m GET     [0m /my   r:/my

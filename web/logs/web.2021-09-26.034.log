@@ -1,8 +1,0 @@
-2021/09/26 12:27:34.787  [D] [log.go:750]  |      127.0.0.1|[47m 302 [0m|      416.3µs| nomatch|[44m GET     [0m /member
-2021/09/26 12:27:34.794  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     1.0673ms|   match|[44m GET     [0m /login   r:/login
-2021/09/26 12:27:42.091  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     4.1637ms|   match|[44m GET     [0m /     r:/
-2021/09/26 12:27:43.840  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     6.8225ms|   match|[44m GET     [0m /member   r:/member
-2021/09/26 12:27:51.335  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     2.3565ms|   match|[44m GET     [0m /my   r:/my
-2021/09/26 12:27:51.351  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|     1.2773ms|   match|[44m GET     [0m /static/webuploader/webuploader.css
-2021/09/26 12:27:51.352  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|     1.0806ms|   match|[44m GET     [0m /static/cropper/cropper.css
-2021/09/26 12:27:51.352  [D] [log.go:750]  |      127.0.0.1|[47m 304 [0m|        536µs|   match|[44m GET     [0m /static/webuploader/webuploader.js

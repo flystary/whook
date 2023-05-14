@@ -1,9 +1,0 @@
-2021/09/26 09:53:30.057  [D] [log.go:756]  template Execute err: template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
-2021/09/26 09:53:30.059  [E] [log.go:720]  template: user/edit.html:82:79: executing "user/edit.html" at <.Model.UserId>: nil pointer evaluating interface {}.UserId
-2021/09/26 09:53:30.060  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.8146ms|   match|[44m GET     [0m /my   r:/my
-2021/09/26 10:21:59.567  [I] [log.go:745]  generate router from comments
-2021/09/26 10:21:59.568  [I] [log.go:745]  http server Running on http://:8080
-2021/09/26 10:22:10.100  [D] [log.go:750]  |      127.0.0.1|[42m 200 [0m|     5.8528ms|   match|[44m GET     [0m /     r:/
-2021/09/26 10:22:15.567  [C] [log.go:715]  the request url is  /member
-2021/09/26 10:22:15.567  [C] [log.go:715]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
-2021/09/26 10:22:15.567  [C] [log.go:715]  C:/Go/src/runtime/panic.go:965
